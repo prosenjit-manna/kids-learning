@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import {
   StyleSheet,
+  Switch,
   Text,
   TouchableOpacity,
   View,
@@ -9,7 +10,13 @@ import Slider from '@react-native-community/slider';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { RootStackParamList } from '../App';
-import { getTtsSpeed, setTtsSpeed, DEFAULTS } from '../storage/settings';
+import {
+  getTtsSpeed,
+  setTtsSpeed,
+  DEFAULTS,
+  getReadInfoEnabled,
+  setReadInfoEnabled,
+} from '../storage/settings';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Settings'>;
 
@@ -29,6 +36,7 @@ function speedLabel(value: number): string {
 export default function SettingsScreen({ navigation }: Props) {
   const insets = useSafeAreaInsets();
   const [speed, setSpeed] = useState<number>(getTtsSpeed());
+  const [readInfoEnabled, setReadInfoEnabledState] = useState<boolean>(getReadInfoEnabled());
 
   const handleChange = (value: number) => {
     const rounded = Math.round(value / STEP) * STEP;
@@ -39,6 +47,13 @@ export default function SettingsScreen({ navigation }: Props) {
   const handleReset = () => {
     setSpeed(DEFAULTS.TTS_SPEED);
     setTtsSpeed(DEFAULTS.TTS_SPEED);
+    setReadInfoEnabledState(DEFAULTS.READ_INFO_ENABLED);
+    setReadInfoEnabled(DEFAULTS.READ_INFO_ENABLED);
+  };
+
+  const handleReadInfoToggle = (value: boolean) => {
+    setReadInfoEnabledState(value);
+    setReadInfoEnabled(value);
   };
 
   return (
@@ -83,6 +98,26 @@ export default function SettingsScreen({ navigation }: Props) {
           <View style={styles.rangeRow}>
             <Text style={styles.rangeText}>🐢 0.5x</Text>
             <Text style={styles.rangeText}>🚀 1.5x</Text>
+          </View>
+        </View>
+
+        {/* Read Info section */}
+        <Text style={[styles.sectionTitle, styles.sectionSpacing]}>📖  Read Info</Text>
+        <Text style={styles.sectionSubtitle}>
+          When enabled, the app reads the full description aloud; when off, only the title is spoken
+        </Text>
+
+        <View style={styles.card}>
+          <View style={styles.toggleRow}>
+            <Text style={styles.toggleLabel}>
+              {readInfoEnabled ? '✅ Read title & info' : '🔤 Read title only'}
+            </Text>
+            <Switch
+              value={readInfoEnabled}
+              onValueChange={handleReadInfoToggle}
+              trackColor={{ false: '#E5E5EA', true: '#FF922B' }}
+              thumbColor={readInfoEnabled ? '#fff' : '#fff'}
+            />
           </View>
         </View>
 
@@ -179,6 +214,21 @@ const styles = StyleSheet.create({
   rangeText: {
     fontSize: 12,
     color: '#888',
+  },
+  sectionSpacing: {
+    marginTop: 32,
+  },
+  toggleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  toggleLabel: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#1C1C1E',
+    flex: 1,
+    marginRight: 12,
   },
   resetBtn: {
     marginTop: 28,

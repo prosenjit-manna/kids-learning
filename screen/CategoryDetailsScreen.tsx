@@ -13,6 +13,7 @@ import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { RootStackParamList } from '../App';
 import { useTTS } from '../hooks/useTTS';
+import { getReadInfoEnabled } from '../storage/settings';
 import { usePexelsImage } from '../hooks/usePexelsImage';
 import { localImageMap } from '../images/localImageMap';
 
@@ -215,14 +216,13 @@ function DotIndicator({
 }
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
-function buildSpeechText(item: CardItem): string {
+function buildSpeechText(item: CardItem, readInfo: boolean): string {
   // Strip the em-dash separator used in Alphabets/Numbers titles
   const clean = item.title.replace(/\s*—\s*/g, ', ');
-  const parts = [clean];
-  if (item.fact) {
-    parts.push(item.fact);
+  if (!readInfo || !item.fact) {
+    return clean;
   }
-  return parts.join('. ');
+  return [clean, item.fact].join('. ');
 }
 
 // ─── Screen ───────────────────────────────────────────────────────────────────
@@ -244,7 +244,7 @@ export default function CategoryDetailsScreen({ route, navigation }: Props) {
   // Auto-speak whenever the active card changes
   useEffect(() => {
     if (items[activeIndex]) {
-      speak(buildSpeechText(items[activeIndex]));
+      speak(buildSpeechText(items[activeIndex], getReadInfoEnabled()));
     }
     // stop on unmount
     return () => { stop(); };
@@ -275,7 +275,7 @@ export default function CategoryDetailsScreen({ route, navigation }: Props) {
 
   const handleReplay = useCallback(() => {
     if (items[activeIndex]) {
-      speak(buildSpeechText(items[activeIndex]));
+      speak(buildSpeechText(items[activeIndex], getReadInfoEnabled()));
     }
   }, [activeIndex, items, speak]);
 
@@ -316,7 +316,7 @@ export default function CategoryDetailsScreen({ route, navigation }: Props) {
               item={item}
               cardWidth={CARD_WIDTH}
               cardHeight={CARD_HEIGHT}
-              onTap={() => speak(buildSpeechText(item))}
+              onTap={() => speak(buildSpeechText(item, getReadInfoEnabled()))}
             />
           </View>
         )}
