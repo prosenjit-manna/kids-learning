@@ -166,7 +166,7 @@ function SwipeCard({
           <Image
             source={localSource}
             style={styles.cardPhoto}
-            resizeMode="cover"
+            resizeMode="contain"
           />
         ) : photoUrl ? (
           <Image
@@ -425,8 +425,8 @@ const styles = StyleSheet.create({
     fontSize: 120,
   },
   cardPhoto: {
-    width: '100%',
-    height: '100%',
+    width: 360,
+    height: 474,
     borderRadius: 0,
   },
   cardBottom: {
