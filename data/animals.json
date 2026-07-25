@@ -2,71 +2,71 @@
   { "name": "Lion", "emoji": "🦁", "color": "#FF9500", "fact": "Lions are called the king of the jungle!", "localImage": "animals/lion.jpg" },
   { "name": "Elephant", "emoji": "🐘", "color": "#8E8E93", "fact": "Elephants never forget — they have great memory!", "localImage": "animals/elephant.jpg" },
   { "name": "Giraffe", "emoji": "🦒", "color": "#FFCC00", "fact": "Giraffes are the tallest animals on Earth.", "localImage": "animals/giraffe.jpg" },
-  { "name": "Dolphin", "emoji": "🐬", "color": "#007AFF", "fact": "Dolphins sleep with one eye open!" },
-  { "name": "Monkey", "emoji": "🐒", "color": "#A2845E", "fact": "Monkeys peel their bananas just like us." },
-  { "name": "Zebra", "emoji": "🦓", "color": "#1C1C1E", "fact": "Every zebra has a unique stripe pattern." },
-  { "name": "Rabbit", "emoji": "🐰", "color": "#FF9500", "fact": "Rabbits can jump up to 3 feet high!" },
-  { "name": "Frog", "emoji": "🐸", "color": "#34C759", "fact": "Frogs drink water through their skin." },
-  { "name": "Butterfly", "emoji": "🦋", "color": "#AF52DE", "fact": "Butterflies taste food with their feet!" },
-  { "name": "Dog", "emoji": "🐶", "color": "#A2845E", "fact": "Dogs can understand up to 250 words and gestures." },
-  { "name": "Cat", "emoji": "🐱", "color": "#8E8E93", "fact": "Cats can jump up to six times their body length!" },
-  { "name": "Tiger", "emoji": "🐯", "color": "#FF9500", "fact": "No two tigers have the same stripe pattern." },
-  { "name": "Bear", "emoji": "🐻", "color": "#A2845E", "fact": "Bears can smell food from up to 20 miles away!" },
-  { "name": "Panda", "emoji": "🐼", "color": "#1C1C1E", "fact": "Giant pandas eat bamboo for up to 14 hours a day." },
-  { "name": "Koala", "emoji": "🐨", "color": "#8E8E93", "fact": "Koalas sleep up to 22 hours a day to save energy." },
-  { "name": "Kangaroo", "emoji": "🦘", "color": "#FF9500", "fact": "Baby kangaroos are called joeys and fit in their mum's pouch." },
-  { "name": "Crocodile", "emoji": "🐊", "color": "#34C759", "fact": "Crocodiles have been on Earth for 200 million years!" },
-  
-  
-  { "name": "Whale", "emoji": "🐳", "color": "#007AFF", "fact": "Blue whales are the largest animals that have ever lived." },
-  { "name": "Shark", "emoji": "🦈", "color": "#8E8E93", "fact": "Sharks have been on Earth longer than trees!" },
-  { "name": "Octopus", "emoji": "🐙", "color": "#AF52DE", "fact": "Octopuses have three hearts and blue blood!" },
-  
-  { "name": "Turtle", "emoji": "🐢", "color": "#34C759", "fact": "Sea turtles can live for over 100 years." },
-  { "name": "Chameleon", "emoji": "🦎", "color": "#34C759", "fact": "Chameleons change colour to show their mood, not to hide." },
-  { "name": "Cheetah", "emoji": "🐆", "color": "#FFCC00", "fact": "Cheetahs are the fastest land animals, reaching 120 km/h." },
-  { "name": "Gorilla", "emoji": "🦍", "color": "#1C1C1E", "fact": "Gorillas share 98% of their DNA with humans." },
-  { "name": "Chimpanzee", "emoji": "🐒", "color": "#A2845E", "fact": "Chimpanzees use sticks and rocks as tools." },
-  { "name": "Sloth", "emoji": "🦥", "color": "#A2845E", "fact": "Sloths are so slow that algae grows on their fur!" },
-  
-  { "name": "Red Panda", "emoji": "🦊", "color": "#FF9500", "fact": "Red pandas use their bushy tail as a blanket in winter." },
-  
-  { "name": "Fox", "emoji": "🦊", "color": "#F2F2F7", "fact": "Arctic foxes change colour with the seasons." },
-  { "name": "Snow Leopard", "emoji": "🐆", "color": "#8E8E93", "fact": "Snow leopards cannot roar — they chuff and mew." },
-  { "name": "Jaguar", "emoji": "🐆", "color": "#FF9500", "fact": "Jaguars are excellent swimmers and love water." },
-  
-  { "name": "Seal", "emoji": "🦭", "color": "#8E8E93", "fact": "Seals can hold their breath for up to two hours!" },
-  
-  { "name": "Hippopotamus", "emoji": "🦛", "color": "#8E8E93", "fact": "Hippos sweat a red liquid that acts as sunscreen!" },
-  { "name": "Rhinoceros", "emoji": "🦏", "color": "#8E8E93", "fact": "A rhino's horn is made of the same material as our fingernails." },
-  { "name": "Camel", "emoji": "🐪", "color": "#FFCC00", "fact": "Camels store fat — not water — in their humps." },
-  { "name": "Llama", "emoji": "🦙", "color": "#FFCC00", "fact": "Llamas spit when they are upset or annoyed." },
-  
-  { "name": "Bison", "emoji": "🐃", "color": "#A2845E", "fact": "Bison are the largest land animals in North America." },
-  { "name": "Yak", "emoji": "🐂", "color": "#1C1C1E", "fact": "Yaks can survive in temperatures as low as -40°C." },
-  
-  
-  { "name": "Electric Eel", "emoji": "🐍", "color": "#34C759", "fact": "Electric eels produce shocks of up to 860 volts!" },
+  { "name": "Dolphin", "emoji": "🐬", "color": "#007AFF", "fact": "Dolphins sleep with one eye open!", "localImage": "animals/dolphin.jpg" },
+  { "name": "Monkey", "emoji": "🐒", "color": "#A2845E", "fact": "Monkeys peel their bananas just like us.", "localImage": "animals/monkey.jpg" },
+  { "name": "Zebra", "emoji": "🦓", "color": "#1C1C1E", "fact": "Every zebra has a unique stripe pattern.", "localImage": "animals/zebra.jpg" },
+  { "name": "Rabbit", "emoji": "🐰", "color": "#FF9500", "fact": "Rabbits can jump up to 3 feet high!", "localImage": "animals/rabbit.jpg" },
+  { "name": "Frog", "emoji": "🐸", "color": "#34C759", "fact": "Frogs drink water through their skin.", "localImage": "animals/frog.jpg" },
+  { "name": "Butterfly", "emoji": "🦋", "color": "#AF52DE", "fact": "Butterflies taste food with their feet!", "localImage": "animals/butterfly.jpg" },
+  { "name": "Dog", "emoji": "🐶", "color": "#A2845E", "fact": "Dogs can understand up to 250 words and gestures.", "localImage": "animals/dog.jpg" },
+  { "name": "Cat", "emoji": "🐱", "color": "#8E8E93", "fact": "Cats can jump up to six times their body length!", "localImage": "animals/cat.jpg" },
+  { "name": "Tiger", "emoji": "🐯", "color": "#FF9500", "fact": "No two tigers have the same stripe pattern.", "localImage": "animals/tiger.jpg" },
+  { "name": "Bear", "emoji": "🐻", "color": "#A2845E", "fact": "Bears can smell food from up to 20 miles away!", "localImage": "animals/bear.jpg" },
+  { "name": "Panda", "emoji": "🐼", "color": "#1C1C1E", "fact": "Giant pandas eat bamboo for up to 14 hours a day.", "localImage": "animals/panda.jpg" },
+  { "name": "Koala", "emoji": "🐨", "color": "#8E8E93", "fact": "Koalas sleep up to 22 hours a day to save energy.", "localImage": "animals/koala.jpg" },
+  { "name": "Kangaroo", "emoji": "🦘", "color": "#FF9500", "fact": "Baby kangaroos are called joeys and fit in their mum's pouch.", "localImage": "animals/kangaroo.jpg" },
+  { "name": "Crocodile", "emoji": "🐊", "color": "#34C759", "fact": "Crocodiles have been on Earth for 200 million years!", "localImage": "animals/crocodile.jpg" },
 
-  
-  { "name": "King Cobra", "emoji": "🐍", "color": "#4A7A3A", "fact": "The King Cobra is the world's longest venomous snake and lives in Indian forests." },
-  
-  { "name": "Gharial", "emoji": "🐊", "color": "#5E7A52", "fact": "The Gharial has a long narrow snout perfect for catching fish in Indian rivers." },
-  
-  { "name": "Deer", "emoji": "🦌", "color": "#7B5B3A", "fact": "The Sambar is India's largest deer and is a favourite prey of tigers and leopards." },
-  
-  { "name": "Chinkara", "emoji": "🦌", "color": "#C8A46A", "fact": "The Chinkara is a small gazelle that can survive in India's dry deserts with very little water." },
-  { "name": "Hyena", "emoji": "🐺", "color": "#9E8E7A", "fact": "The Striped Hyena is India's only hyena species and is mostly active at night." },
 
-  { "name": "Cow", "emoji": "🐄", "color": "#F5F0E8", "fact": "Cows have best friends and get stressed when they are separated!" },
-  { "name": "Horse", "emoji": "🐴", "color": "#A2845E", "fact": "Horses can sleep both standing up and lying down." },
-  { "name": "Sheep", "emoji": "🐑", "color": "#F2F2F7", "fact": "Sheep can recognise up to 50 other sheep faces and remember them for years." },
-  { "name": "Goat", "emoji": "🐐", "color": "#C8A46A", "fact": "Goats were one of the first animals ever domesticated by humans, over 10,000 years ago." },
-  { "name": "Pig", "emoji": "🐷", "color": "#FFB6C1", "fact": "Pigs are smarter than dogs and can learn their name within 2–3 weeks!" },
-  { "name": "Chicken", "emoji": "🐔", "color": "#FFCC00", "fact": "Chickens can remember over 100 different faces of people or animals." },
-  { "name": "Duck", "emoji": "🦆", "color": "#34C759", "fact": "Ducklings bond with the very first moving thing they see after hatching." },
-  { "name": "Donkey", "emoji": "🫏", "color": "#8E8E93", "fact": "Donkeys have an excellent memory and can recognise places they visited 25 years ago." },
-  { "name": "Buffalo", "emoji": "🐃", "color": "#3A3A3C", "fact": "Domestic buffaloes provide more milk per year than any other cattle in South Asia." },
-  { "name": "Hamster", "emoji": "🐹", "color": "#FFCC99", "fact": "Hamsters can run up to 8 km in a single night on their wheel!" },
+  { "name": "Whale", "emoji": "🐳", "color": "#007AFF", "fact": "Blue whales are the largest animals that have ever lived.", "localImage": "animals/whale.jpg" },
+  { "name": "Shark", "emoji": "🦈", "color": "#8E8E93", "fact": "Sharks have been on Earth longer than trees!", "localImage": "animals/shark.jpg" },
+  { "name": "Octopus", "emoji": "🐙", "color": "#AF52DE", "fact": "Octopuses have three hearts and blue blood!", "localImage": "animals/octopus.jpg" },
+
+  { "name": "Turtle", "emoji": "🐢", "color": "#34C759", "fact": "Sea turtles can live for over 100 years.", "localImage": "animals/turtle.jpg" },
+  { "name": "Chameleon", "emoji": "🦎", "color": "#34C759", "fact": "Chameleons change colour to show their mood, not to hide.", "localImage": "animals/chameleon.jpg" },
+  { "name": "Cheetah", "emoji": "🐆", "color": "#FFCC00", "fact": "Cheetahs are the fastest land animals, reaching 120 km/h.", "localImage": "animals/cheetah.jpg" },
+  { "name": "Gorilla", "emoji": "🦍", "color": "#1C1C1E", "fact": "Gorillas share 98% of their DNA with humans.", "localImage": "animals/gorilla.jpg" },
+  { "name": "Chimpanzee", "emoji": "🐒", "color": "#A2845E", "fact": "Chimpanzees use sticks and rocks as tools.", "localImage": "animals/chimpanzee.jpg" },
+  { "name": "Sloth", "emoji": "🦥", "color": "#A2845E", "fact": "Sloths are so slow that algae grows on their fur!", "localImage": "animals/sloth.jpg" },
+
+  { "name": "Red Panda", "emoji": "🦊", "color": "#FF9500", "fact": "Red pandas use their bushy tail as a blanket in winter.", "localImage": "animals/red-panda.jpg" },
+
+  { "name": "Fox", "emoji": "🦊", "color": "#F2F2F7", "fact": "Arctic foxes change colour with the seasons.", "localImage": "animals/fox.jpg" },
+  { "name": "Snow Leopard", "emoji": "🐆", "color": "#8E8E93", "fact": "Snow leopards cannot roar — they chuff and mew.", "localImage": "animals/snow-leopard.jpg" },
+  { "name": "Jaguar", "emoji": "🐆", "color": "#FF9500", "fact": "Jaguars are excellent swimmers and love water.", "localImage": "animals/jaguar.jpg" },
+
+  { "name": "Seal", "emoji": "🦭", "color": "#8E8E93", "fact": "Seals can hold their breath for up to two hours!", "localImage": "animals/seal.jpg" },
+
+  { "name": "Hippopotamus", "emoji": "🦛", "color": "#8E8E93", "fact": "Hippos sweat a red liquid that acts as sunscreen!", "localImage": "animals/hippopotamus.jpg" },
+  { "name": "Rhinoceros", "emoji": "🦏", "color": "#8E8E93", "fact": "A rhino's horn is made of the same material as our fingernails.", "localImage": "animals/rhinoceros.jpg" },
+  { "name": "Camel", "emoji": "🐪", "color": "#FFCC00", "fact": "Camels store fat — not water — in their humps.", "localImage": "animals/camel.jpg" },
+  { "name": "Llama", "emoji": "🦙", "color": "#FFCC00", "fact": "Llamas spit when they are upset or annoyed.", "localImage": "animals/llama.jpg" },
+
+  { "name": "Bison", "emoji": "🐃", "color": "#A2845E", "fact": "Bison are the largest land animals in North America.", "localImage": "animals/bison.jpg" },
+  { "name": "Yak", "emoji": "🐂", "color": "#1C1C1E", "fact": "Yaks can survive in temperatures as low as -40°C.", "localImage": "animals/yak.jpg" },
+
+
+  { "name": "Electric Eel", "emoji": "🐍", "color": "#34C759", "fact": "Electric eels produce shocks of up to 860 volts!", "localImage": "animals/eel.jpg" },
+
+
+  { "name": "King Cobra", "emoji": "🐍", "color": "#4A7A3A", "fact": "The King Cobra is the world's longest venomous snake and lives in Indian forests.", "localImage": "animals/cobra.jpg" },
+
+  { "name": "Gharial", "emoji": "🐊", "color": "#5E7A52", "fact": "The Gharial has a long narrow snout perfect for catching fish in Indian rivers.", "localImage": "animals/gharial.jpg" },
+
+  { "name": "Deer", "emoji": "🦌", "color": "#7B5B3A", "fact": "The Sambar is India's largest deer and is a favourite prey of tigers and leopards.", "localImage": "animals/deer.jpg" },
+
+  { "name": "Chinkara", "emoji": "🦌", "color": "#C8A46A", "fact": "The Chinkara is a small gazelle that can survive in India's dry deserts with very little water.", "localImage": "animals/chinkara.jpg" },
+  { "name": "Hyena", "emoji": "🐺", "color": "#9E8E7A", "fact": "The Striped Hyena is India's only hyena species and is mostly active at night.", "localImage": "animals/hyena.jpg" },
+
+  { "name": "Cow", "emoji": "🐄", "color": "#F5F0E8", "fact": "Cows have best friends and get stressed when they are separated!", "localImage": "animals/cow.jpg" },
+  { "name": "Horse", "emoji": "🐴", "color": "#A2845E", "fact": "Horses can sleep both standing up and lying down.", "localImage": "animals/horse.jpg" },
+  { "name": "Sheep", "emoji": "🐑", "color": "#F2F2F7", "fact": "Sheep can recognise up to 50 other sheep faces and remember them for years.", "localImage": "animals/sheep.jpg" },
+  { "name": "Goat", "emoji": "🐐", "color": "#C8A46A", "fact": "Goats were one of the first animals ever domesticated by humans, over 10,000 years ago.", "localImage": "animals/goat.jpg" },
+  { "name": "Pig", "emoji": "🐷", "color": "#FFB6C1", "fact": "Pigs are smarter than dogs and can learn their name within 2–3 weeks!", "localImage": "animals/pig.jpg" },
+  { "name": "Chicken", "emoji": "🐔", "color": "#FFCC00", "fact": "Chickens can remember over 100 different faces of people or animals.", "localImage": "animals/chicken.jpg" },
+  { "name": "Duck", "emoji": "🦆", "color": "#34C759", "fact": "Ducklings bond with the very first moving thing they see after hatching.", "localImage": "animals/duck.jpg" },
+  { "name": "Donkey", "emoji": "🫏", "color": "#8E8E93", "fact": "Donkeys have an excellent memory and can recognise places they visited 25 years ago.", "localImage": "animals/donkey.jpg" },
+  { "name": "Buffalo", "emoji": "🐃", "color": "#3A3A3C", "fact": "Domestic buffaloes provide more milk per year than any other cattle in South Asia.", "localImage": "animals/buffalo.jpg" },
+  { "name": "Hamster", "emoji": "🐹", "color": "#FFCC99", "fact": "Hamsters can run up to 8 km in a single night on their wheel!", "localImage": "animals/hamster.jpg" },
   { "name": "Sheep", "emoji": "🐹", "color": "#FFCC99", "fact": "Hamsters can run up to 8 km in a single night on their wheel!" }
 ]
