@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Alphabets",
+        "image": "home/alphabets.jpg",
+        "color": "#FF6B6B"
+    },
+    {
+        "title": "Numbers",
+        "image": "home/numbers.jpg",
+        "color": "#FFD93D"
+    },
+    {
+        "title": "Colors",
+        "image": "home/colors.jpg",
+        "color": "#6BCB77"
+    },
+    {
+        "title": "Fruits",
+        "image": "home/fruits.jpg",
+        "color": "#FF922B"
+    },
+    {
+        "title": "Vegetables",
+        "image": "home/vegetables.jpg",
+        "color": "#74C0FC"
+    },
+    {
+        "title": "Animals",
+        "image": "home/animals.jpg",
+        "color": "#DA77F2"
+    },
+    {
+        "title": "Toys",
+        "image": "home/toys.jpg",
+        "color": "#F06595"
+    }
+]

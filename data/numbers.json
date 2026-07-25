@@ -1,0 +1,12 @@
+[
+  { "number": "1", "word": "One", "emoji": "1️⃣", "fact": "One little finger — that's number 1!" },
+  { "number": "2", "word": "Two", "emoji": "2️⃣", "fact": "You have 2 eyes and 2 ears!" },
+  { "number": "3", "word": "Three", "emoji": "3️⃣", "fact": "A triangle has 3 sides." },
+  { "number": "4", "word": "Four", "emoji": "4️⃣", "fact": "A car has 4 wheels." },
+  { "number": "5", "word": "Five", "emoji": "5️⃣", "fact": "One hand has 5 fingers!" },
+  { "number": "6", "word": "Six", "emoji": "6️⃣", "fact": "An insect has 6 legs." },
+  { "number": "7", "word": "Seven", "emoji": "7️⃣", "fact": "A rainbow has 7 colours." },
+  { "number": "8", "word": "Eight", "emoji": "8️⃣", "fact": "A spider has 8 legs." },
+  { "number": "9", "word": "Nine", "emoji": "9️⃣", "fact": "A cat is said to have 9 lives!" },
+  { "number": "10", "word": "Ten", "emoji": "🔟", "fact": "You have 10 fingers on both hands!" }
+]

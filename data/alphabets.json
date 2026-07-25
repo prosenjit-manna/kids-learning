@@ -1,0 +1,158 @@
+[
+    {
+        "letter": "A",
+        "word": "Apple",
+        "emoji": "🍎",
+        "fact": "A is the first letter of the alphabet!"
+    },
+    {
+        "letter": "B",
+        "word": "Ball",
+        "emoji": "⚽",
+        "fact": "B makes the 'buh' sound."
+    },
+    {
+        "letter": "C",
+        "word": "Cat",
+        "emoji": "🐱",
+        "fact": "C can sound like 'kuh' or 'sss'."
+    },
+    {
+        "letter": "D",
+        "word": "Dog",
+        "emoji": "🐶",
+        "fact": "D makes the 'duh' sound."
+    },
+    {
+        "letter": "E",
+        "word": "Elephant",
+        "emoji": "🐘",
+        "fact": "E is a vowel — it says 'eh' or 'ee'."
+    },
+    {
+        "letter": "F",
+        "word": "Fish",
+        "emoji": "🐟",
+        "fact": "F makes the 'fff' sound."
+    },
+    {
+        "letter": "G",
+        "word": "Grapes",
+        "emoji": "🍇",
+        "fact": "G makes the 'guh' sound."
+    },
+    {
+        "letter": "H",
+        "word": "Hat",
+        "emoji": "🎩",
+        "fact": "H makes the 'huh' sound."
+    },
+    {
+        "letter": "I",
+        "word": "Ice cream",
+        "emoji": "🍦",
+        "fact": "I is a vowel — it says 'ih' or 'eye'."
+    },
+    {
+        "letter": "J",
+        "word": "Jar",
+        "emoji": "🫙",
+        "fact": "J makes the 'juh' sound."
+    },
+    {
+        "letter": "K",
+        "word": "Kite",
+        "emoji": "🪁",
+        "fact": "K makes the 'kuh' sound."
+    },
+    {
+        "letter": "L",
+        "word": "Lion",
+        "emoji": "🦁",
+        "fact": "L makes the 'lll' sound."
+    },
+    {
+        "letter": "M",
+        "word": "Moon",
+        "emoji": "🌙",
+        "fact": "M makes the 'mmm' sound."
+    },
+    {
+        "letter": "N",
+        "word": "Nest",
+        "emoji": "🪺",
+        "fact": "N makes the 'nnn' sound."
+    },
+    {
+        "letter": "O",
+        "word": "Orange",
+        "emoji": "🍊",
+        "fact": "O is a vowel — it says 'oh' or 'aw'."
+    },
+    {
+        "letter": "P",
+        "word": "Penguin",
+        "emoji": "🐧",
+        "fact": "P makes the 'puh' sound."
+    },
+    {
+        "letter": "Q",
+        "word": "Queen",
+        "emoji": "👑",
+        "fact": "Q almost always teams up with U!"
+    },
+    {
+        "letter": "R",
+        "word": "Rainbow",
+        "emoji": "🌈",
+        "fact": "R makes the 'rrr' sound."
+    },
+    {
+        "letter": "S",
+        "word": "Sun",
+        "emoji": "☀️",
+        "fact": "S makes the 'sss' sound."
+    },
+    {
+        "letter": "T",
+        "word": "Tiger",
+        "emoji": "🐯",
+        "fact": "T makes the 'tuh' sound."
+    },
+    {
+        "letter": "U",
+        "word": "Umbrella",
+        "emoji": "☂️",
+        "fact": "U is a vowel — it says 'uh' or 'yoo'."
+    },
+    {
+        "letter": "V",
+        "word": "Violin",
+        "emoji": "🎻",
+        "fact": "V makes the 'vvv' sound."
+    },
+    {
+        "letter": "W",
+        "word": "Whale",
+        "emoji": "🐳",
+        "fact": "W makes the 'wuh' sound."
+    },
+    {
+        "letter": "X",
+        "word": "Xylophone",
+        "emoji": "🎼",
+        "fact": "X usually sounds like 'ks'."
+    },
+    {
+        "letter": "Y",
+        "word": "Yak",
+        "emoji": "🐃",
+        "fact": "Y makes the 'yuh' sound."
+    },
+    {
+        "letter": "Z",
+        "word": "Zebra",
+        "emoji": "🦓",
+        "fact": "Z is the last letter of the alphabet!"
+    }
+]
